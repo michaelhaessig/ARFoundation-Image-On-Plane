@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ImageSelectionScene.unity
+    guid: d0dcbd63baa014bb2bf848c28a936106
+  - enabled: 1
+    path: Assets/Scenes/ARPlaceImageScene.unity
+    guid: c06014c72312949b2ae937640a598379
   m_configObjects: {}

@@ -16,7 +16,10 @@ public class UiMenu : MonoBehaviour
 
     public InputField InputSearch;
 
+    public Toggle DebugToggle;
+
     private static PixabayImageResponse SearchResponse;
+
 
     // Use this for initialization
     void Start()
@@ -27,11 +30,18 @@ public class UiMenu : MonoBehaviour
         {
             StartCoroutine(AddImagesAsync(UiMenu.SearchResponse));
         }
+
+        // reset debug toggle
+        if(ARScene._Debug.HasValue)
+        {
+            DebugToggle.isOn = ARScene._Debug.Value;
+        }
+
     }
 
     public void SetDebugMode(bool enabled)
     {
-
+        ARScene._Debug = enabled;
     }
 
 

@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 
 /*
@@ -34,6 +35,9 @@ public class UiImageItem : MonoBehaviour
 
     public void OpenImage()
     {
-  
+        // set the current image
+        ARImageScene.CurrentImage = image;
+        // load AR scene
+        SceneManager.LoadScene("ARPlaceImageScene");
     }
 }
