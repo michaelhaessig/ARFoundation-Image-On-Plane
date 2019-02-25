@@ -42,9 +42,9 @@ This GameObject simulates a Wall, very useful to test some changes without havin
 Check out the [video](media/unity_editor.mp4) i have made to demonstrate the dev workflow.
 
 ### Improvements
-I built this code as evaluation of whats currently possible with the ARKit/ARCore frameworks plane detection algorithms.
+I built this code as an evaluation to find out what is currently possible with the ARKit/ARCore frameworks plane detection algorithms.
 
-If you see any abvious improvments i would love to here from you!
+If you see any abvious improvements i would love to here from you!
 
 ## Assets
 the project uses the following assets
